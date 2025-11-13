@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Empower Young Minds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 1. Selectors & Basic Properties - Hero Section -->
+    <header class="hero">
+      <h1 class="hero__title">EMPOWER YOUNG MINDS</h1>
+      <p class="hero__description">
+        Discover a world of new learning possibilities with our
+        <span id="hero__highlight">on-demand</span>
+        courses and professionals.
+      </p>
+    </header>
+
+    <!-- 2. Fonts - Features Section -->
+    <section class="feature">
+      <div class="feature__container">
+        <div class="feature__item">
+          <h2 class="feature__title feature__title--selected">
+            Empower Student Learning
+          </h2>
+          <p class="feature__description">
+            Learn from the best. Our high-definition video lessons are taught by
+            industry professionals and passionate experts, breaking down complex
+            topics into easy-to-understand, bite-sized modules.
+          </p>
+        </div>
+        <div class="feature__item">
+          <h2 class="feature__title">Streamlined Communication Tools</h2>
+          <p class="feature__description">
+            Get help and collaborate instantly. Use our built-in messaging to
+            connect with instructors for private feedback or team up with other
+            learners for a group project. It's the simple, secure way to stay in
+            touch.
+          </p>
+        </div>
+        <div class="feature__item">
+          <h2 class="feature__title">Customizable Learning Experience</h2>
+          <p class="feature__description">
+            Start your day focused. Your personal dashboard is your mission
+            control. Set weekly goals, track the skills you're working on, and
+            get personalized recommendations for what to learn next based on
+            your interests and progress.
+          </p>
+        </div>
+      </div>
+
+      <div class="feature__image-container">
+        <img
+          class="feature__image"
+          src="./images/features.jpg"
+          alt="feature image"
+        />
+      </div>
+    </section>
+
+    <!-- 3. Colors - Call to Action Section -->
+    <section class="cta">
+      <h3 class="cta__title">Learn More by Contacting Us</h3>
+      <p class="cta__description">
+        Want to see these features in action? Contact us to schedule a
+        personalized demo for your organization or to discuss custom learning
+        solutions.
+      </p>
+      <button class="cta__button cta__button--primary">Learn More</button>
+    </section>
+
+    <!-- 4. Box Model - Video Section -->
+    <section class="video">
+      <h3 class="video__title">Grow With Us</h3>
+      <p class="video__description">
+        See what's possible. "Grow With Us" is where our community's success
+        stories come to life. Watch inspiring videos from alumni, get a
+        behind-the-scenes look at their projects, and hear testimonials from
+        real learners just like you. Get motivated and see how others have used
+        their new skills to build amazing things.
+      </p>
+      <div class="video__controls">
+        <button class="video__button video__button--primary">
+          <i class="fas fa-book"></i>Learn More
+        </button>
+        <button class="video__button video__button--secondary">
+          <i class="fas fa-play-circle"></i>Watch Video
+        </button>
+      </div>
+      <div class="video__container"></div>
+    </section>
+
+    <!-- 5. Flex - Programs Section -->
+    <section class="programs">
+      <h2>
+        Explore Our State of the Art Facilities and Enriching Learning
+        Experience
+      </h2>
+      <div class="programs__cards">
+        <div class="programs__card">
+          <img
+            class="programs__card-img"
+            src="./images/program1.jpg"
+            alt="Learning Activities"
+          />
+          <h3>Engaging, Hands-On Activities</h3>
+          <p>
+            We believe in learning by doing. Our programs move beyond theory
+            with immersive, hands-on activities, real-world projects, and
+            collaborative workshops.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img
+            class="programs__card-img"
+            src="./images/program2.jpg"
+            alt="Academic Program"
+          />
+          <h3>Diverse Academic Programs</h3>
+          <p>
+            Find your perfect path. We offer a wide range of state-of-the-art
+            programs to match your unique goals, from technology and business to
+            the creative arts.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img
+            class="programs__card-img"
+            src="./images/program3.jpg"
+            alt="Dedicated Staff"
+          />
+          <h3>Dedicated Staff & Mentorship</h3>
+          <p>
+            You are never alone on your journey. Our dedicated staff, from
+            industry-expert instructors to supportive mentors, are deeply
+            invested in your success.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. HTML Elements & Images - Form Section -->
+    <section class="element">
+      <div class="element__left">
+        <div class="element__placeholder"></div>
+      </div>
+      <div class="element__right">
+        <h2>Sign Up Today</h2>
+        <p class="element__subtitle">
+          Fill out the form below to sign up our newsletter and receive updates
+        </p>
+        <form class="element__form">
+          <h3>Your Interests:</h3>
+          <ul class="element__list">
+            <li class="element__list-item">Web Development</li>
+            <li class="element__list-item">UI/UX Design</li>
+            <li class="element__list-item">Digital Marketing</li>
+          </ul>
+
+          <div class="element__form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username" />
+          </div>
+
+          <div class="element__form-group">
+            <label for="course">Select Course:</label>
+            <select id="course">
+              <option value="">Choose a course...</option>
+              <option value="html">HTML & CSS</option>
+              <option value="js">JavaScript</option>
+              <option value="react">React</option>
+            </select>
+          </div>
+
+          <button type="submit" class="element__button">Submit Form</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
